@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "noImplicitReturns": true,
+        "esModuleInterop": true,
+        "target": "esnext",
+        "module": "commonjs",
+        "baseUrl": "./src"
+    },
+    "include": ["./src/**/*", "global.d.ts", "./tests/**/*"],
+    "exclude": ["node_modules"]
+}
