@@ -1,4 +1,4 @@
-# Data Structures and Algorithms in TypeScript
+# Data Structures and Algorithms in Javascript
 
 This repository is a collection of classic data structures and algorithms implemented in Javascript/TypeScript. The primary goal of this project is educational, providing a resource for those looking to learn and understand the fundamental algorithms in computer science.
 
