@@ -70,13 +70,13 @@ list2[6] = [{ to: 3, weight: 1 }];
 //    \   v      v        v
 //     >(2) --> (3) <----(6)
 export const matrix2: WeightedAdjacencyMatrix = [
-    [0, 3, 1, 0, 0, 0, 0], // 0
-    [0, 0, 0, 0, 1, 0, 0],
-    [0, 0, 7, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 1, 0, 5, 0, 2, 0],
-    [0, 0, 18, 0, 0, 0, 1],
-    [0, 0, 0, 1, 0, 0, 1],
+    [0, 3, 1, Infinity, Infinity, Infinity, Infinity],
+    [Infinity, 0, Infinity, Infinity, 1, Infinity, Infinity],
+    [Infinity, Infinity, 0, 7, Infinity, Infinity, Infinity],
+    [Infinity, Infinity, Infinity, 0, Infinity, Infinity, Infinity],
+    [Infinity, 1, Infinity, 5, 0, 2, Infinity],
+    [Infinity, Infinity, 18, Infinity, Infinity, 0, 1],
+    [Infinity, Infinity, Infinity, 1, Infinity, Infinity, 0],
 ];
 
 export const list3: WeightedAdjacencyList = [];
@@ -252,3 +252,43 @@ list6[8] = [
     { from: 8, to: 6, weight: 6 },
     { from: 8, to: 7, weight: 7 },
 ];
+
+export const list7: WeightedAdjacencyList = [];
+//
+//        6 ---> 7 ---> 8
+//        ^\            ^
+//        | +----+      |
+//        |      | +----+
+//        |      |/
+// 0 ---> 1 ---> 5
+//        |      |
+//        v      v
+//        2----->4----->9
+//       / \
+//      /   \
+//     /     \
+//    v       \
+//    3 ----> 10
+
+list7[0] = [{ from: 0, to: 1, weight: 5 }];
+list7[1] = [
+    { from: 1, to: 2, weight: 20 },
+    { from: 1, to: 5, weight: 30 },
+    { from: 1, to: 6, weight: 60 },
+];
+list7[2] = [
+    { from: 2, to: 3, weight: 10 },
+    { from: 2, to: 4, weight: 75 },
+];
+list7[3] = [{ from: 3, to: 10, weight: -20 }];
+list7[4] = [{ from: 4, to: 9, weight: 100 }];
+list7[5] = [
+    { from: 5, to: 4, weight: 25 },
+    { from: 5, to: 8, weight: 50 },
+    { from: 5, to: 6, weight: 5 },
+];
+list7[6] = [{ from: 6, to: 7, weight: -50 }];
+list7[7] = [{ from: 7, to: 8, weight: -10 }];
+list7[8] = [];
+list7[9] = [];
+list7[10] = [{ from: 10, to: 2, weight: 5 }];

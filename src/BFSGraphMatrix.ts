@@ -18,7 +18,7 @@ export default function bfs(
         const adjs = graph[curr];
 
         for (let i = 0; i < adjs.length; i++) {
-            if (adjs[i] > 0 && i !== curr) {
+            if (adjs[i] > 0 && adjs[i] !== Infinity && i !== curr) {
                 let next = i;
                 if (seen[next]) continue;
                 seen[next] = true;

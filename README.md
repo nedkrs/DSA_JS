@@ -2,9 +2,9 @@
 
 This repository is a collection of classic data structures and algorithms implemented in Javascript/TypeScript. The primary goal of this project is educational, providing a resource for those looking to learn and understand the fundamental algorithms in computer science.
 
-## Implemented Algorithms
+## Implemented Algorithms and Data Structures
 
-Below is the list of currently implemented algorithms with links to the source code:
+Below is the list of currently implemented algorithms and data structures with links to the source code:
 
 -   [Articulation Points](./src/ArticulationPoints.ts)
 -   [Breadth-First Search (Graph represented as List)](./src/BFSGraphList.ts)
@@ -51,6 +51,9 @@ Below is the list of currently implemented algorithms with links to the source c
 -   [Trie](./src/Trie.ts)
 -   [Two Crystal Balls](./src/TwoCrystalBalls.ts)
 -   [Union Find](./src/UnionFind.ts)
+-   [BellmanFord Single Source Shortest Paths](./src/BellmanFord.ts)
+-   [FloydWarshallAPSP All Pairs Shortest Paths](./src/FloydWarshallAPSP.ts)
+-   [LeastRecentlyUsedCache](./src/LeastRecentlyUsedCache.ts)
 
 ## How to Use
 

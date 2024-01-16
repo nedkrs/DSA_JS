@@ -32,3 +32,9 @@ declare type BinaryNode<T> = {
     left: BinaryNode<T> | null;
     right: BinaryNode<T> | null;
 };
+
+declare interface ILRU<K, V> {
+    print(): void;
+    update(key: K, value: V): void;
+    get(key: K): V | undefined;
+}
