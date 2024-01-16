@@ -52,8 +52,8 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Two Crystal Balls](./src/TwoCrystalBalls.ts)
 -   [Union Find](./src/UnionFind.ts)
 -   [BellmanFord Single Source Shortest Paths](./src/BellmanFord.ts)
--   [FloydWarshallAPSP All Pairs Shortest Paths](./src/FloydWarshallAPSP.ts)
--   [LeastRecentlyUsedCache](./src/LeastRecentlyUsedCache.ts)
+-   [FloydWarshall All Pairs Shortest Paths](./src/FloydWarshallAPSP.ts)
+-   [Least Recently Used Cache](./src/LeastRecentlyUsedCache.ts)
 
 ## How to Use
 
