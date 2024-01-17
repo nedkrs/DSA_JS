@@ -54,6 +54,10 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Bellman Ford Single Source Shortest Paths](./src/BellmanFord.ts)
 -   [Floyd Warshall All Pairs Shortest Paths](./src/FloydWarshallAPSP.ts)
 -   [Least Recently Used Cache](./src/LeastRecentlyUsedCache.ts)
+-   [Bloom Filter](./src/BloomFilter.ts)
+-   [Radix Sort](./src/RadixSort.ts)
+-   [Bucket Sort](./src/BucketSort.ts)
+-   [Counting Sort](./src/CountingSort.ts)
 
 ## How to Use
 
