@@ -58,6 +58,9 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Radix Sort](./src/RadixSort.ts)
 -   [Bucket Sort](./src/BucketSort.ts)
 -   [Counting Sort](./src/CountingSort.ts)
+-   [Fenwick Tree](./src/FenwickTree.ts)
+-   [Consistent Hashing](./src/ConsistentHashing.ts)
+-   [Ring Buffer](./src/RingBuffer.ts)
 
 ## How to Use
 
