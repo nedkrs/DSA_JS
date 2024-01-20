@@ -19,7 +19,6 @@ export default class RingBuffer {
         this.data[this.tail] = item;
         this.tail = (this.tail + 1) % this.capacity;
         this.size++;
-        console.log("enqueue", this.size);
     }
 
     dequeue(): number | void {
@@ -29,7 +28,7 @@ export default class RingBuffer {
         const item = this.data[this.head];
         this.head = (this.head + 1) % this.capacity;
         this.size--;
-        console.log("dequeue", this.size);
+
         return item;
     }
 
