@@ -61,6 +61,18 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Fenwick Tree](./src/FenwickTree.ts)
 -   [Consistent Hashing](./src/ConsistentHashing.ts)
 -   [Ring Buffer](./src/RingBuffer.ts)
+-   [Rod Cutting Exponential](./src/RodCuttingExponential.ts)
+-   [Rod Cutting Dynamic Programming Botton Up](./src/RodCuttingDPBottonUp.ts)
+-   [Rod Cutting Dynamic Programming Top Down](./src/RodCuttingDPTopDown.ts)
+-   [Longest Common Subsequence Dynamic Programming](./src/LongestCommonSubsequenceDP.ts)
+-   [01KnapsackBottomUpDP](./src/01KnapsackBottomUpDP.ts)
+-   [01KnapsackRecursivelyDP](./src/01KnapsackRecursivelyDP.ts)
+-   [01KnapsackRecursivelyExponential](./src/01KnapsackRecursivelyExponential.ts)
+-   [Knapsack Fractional](./src/KnapsackFractional.ts)
+-   [Coin Change Dynamic Programming](./src/CoinChangeDP.ts)
+-   [Frog Jump Dynamic Programming](./src/FrogJumpDP.ts)
+-   [Maximum Slice Sum Kadane](./src/MaximumSliceSumKadane.ts)
+-   [Maximum Profit Kadane](./src/MaxProfitKadane.test.ts)
 
 ## How to Use
 
