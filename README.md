@@ -72,7 +72,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Coin Change Dynamic Programming](./src/CoinChangeDP.ts)
 -   [Frog Jump Dynamic Programming](./src/FrogJumpDP.ts)
 -   [Maximum Slice Sum Kadane](./src/MaximumSliceSumKadane.ts)
--   [Maximum Profit Kadane](./src/MaxProfitKadane.test.ts)
+-   [Maximum Profit Kadane](./src/MaxProfitKadane.ts)
 
 ## How to Use
 
