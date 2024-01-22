@@ -326,3 +326,21 @@ list9[3] = [{ from: 3, to: 4, weight: 1 }];
 list9[4] = [{ from: 4, to: 5, weight: 1 }];
 list9[5] = [{ from: 5, to: 6, weight: 1 }];
 list9[6] = [{ from: 6, to: 0, weight: 1 }];
+
+export const list10: WeightedAdjacencyList = [
+    [
+        { from: 0, to: 1, weight: 4 },
+        { from: 0, to: 2, weight: -2 },
+    ],
+    [
+        { from: 1, to: 2, weight: 3 },
+        { from: 1, to: 3, weight: 2 },
+    ],
+    [
+        { from: 2, to: 1, weight: 1 },
+        { from: 2, to: 3, weight: 2 },
+        { from: 2, to: 4, weight: -3 },
+    ],
+    [{ from: 3, to: 4, weight: 3 }],
+    [],
+];

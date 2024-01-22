@@ -1,8 +1,8 @@
 export default function dijkstra_list(
-    source: number,
-    sink: number,
     arr: WeightedAdjacencyList,
-): number[] {
+    source: number,
+    sink?: number,
+) {
     let seen = new Array(arr.length).fill(false);
     let prev = new Array(arr.length).fill(-1);
     let dists = new Array(arr.length).fill(Infinity);
@@ -23,8 +23,10 @@ export default function dijkstra_list(
         }
     }
 
+    if (sink === undefined) return { path: [], dists };
+
     if (prev[sink] === -1) {
-        return [];
+        return { path: [], dists };
     }
 
     let curr = sink;
@@ -34,7 +36,7 @@ export default function dijkstra_list(
         curr = prev[curr];
     }
 
-    return [source, ...path.reverse()];
+    return { path: [source, ...path.reverse()], dists };
 }
 
 function hasUnvisited(seen: boolean[], dists: number[]) {

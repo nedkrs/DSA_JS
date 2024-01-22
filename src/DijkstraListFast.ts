@@ -1,15 +1,15 @@
 import PriorityIndexedMinQueue from "./PriorityIndexedMinQueue";
 
 export default function dijkstra_list(
-    source: number,
-    sink: number,
     arr: WeightedAdjacencyList,
-): number[] {
+    source: number,
+    sink?: number,
+) {
     let dists = new Array(arr.length).fill(Infinity);
     let prev = new Array(arr.length).fill(-1);
     let unseen = new PriorityIndexedMinQueue();
-    unseen.insert(0, 0);
-    dists[0] = 0;
+    unseen.insert(source, 0);
+    dists[source] = 0;
 
     while (!unseen.isEmpty()) {
         let curr = unseen.deleteMinimum();
@@ -29,8 +29,10 @@ export default function dijkstra_list(
         }
     }
 
+    if (sink === undefined) return { path: [], dists };
+
     if (prev[sink] === -1) {
-        return [];
+        return { path: [], dists };
     }
 
     let curr = sink;
@@ -40,5 +42,5 @@ export default function dijkstra_list(
         curr = prev[curr];
     }
 
-    return [source, ...path.reverse()];
+    return { path: [source, ...path.reverse()], dists };
 }

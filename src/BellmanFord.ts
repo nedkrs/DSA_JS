@@ -1,7 +1,7 @@
 export default function BellmanFord(
     graph: WeightedAdjacencyList,
     startVertex: number,
-    endVertex: number,
+    endVertex?: number,
 ) {
     let dists = graph.map((i) => Infinity);
     let prev = graph.map((i) => -1);
@@ -49,9 +49,11 @@ export default function BellmanFord(
                 ncycle.push(v);
                 v = prev[v];
             }
-            return ncycle;
+            return { path: ncycle, dists };
         }
     }
+
+    if (endVertex === undefined) return { path: ncycle, dists };
 
     let sink = endVertex;
     let path = [];
@@ -60,5 +62,5 @@ export default function BellmanFord(
         sink = prev[sink];
     }
 
-    return [startVertex, ...path.reverse()];
+    return { path: [startVertex, ...path.reverse()], dists };
 }

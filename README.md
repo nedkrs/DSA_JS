@@ -75,6 +75,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Maximum Profit Kadane](./src/MaxProfitKadane.ts)
 -   [Eulerian Path Directed](./src/EulerianPathDirected.ts)
 -   [Eulerian Cycle Directed](./src/EulerianCycleDirected.ts)
+-   [Johnson's All Pairs Shortest Path](./src/JohnsonsAPSP.ts)
 
 ## How to Use
 
