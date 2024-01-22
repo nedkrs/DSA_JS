@@ -1,10 +1,10 @@
-export default function EulerianCircleDirected(
+export default function EulerianCycleDirected(
     graph: WeightedAdjacencyList,
 ): number[] {
     let path: number[] = [];
     let [in_degree, out_degree, edges_count] = set_up(graph);
 
-    if (!hasEulerianCircle(in_degree, out_degree)) return [];
+    if (!hasEulerianCycle(in_degree, out_degree)) return [];
 
     let start = 0;
 
@@ -33,7 +33,7 @@ function set_up(graph: WeightedAdjacencyList): [number[], number[], number] {
     return [in_degree, out_degree, edges_count];
 }
 
-function hasEulerianCircle(in_degree: number[], out_degree: number[]): boolean {
+function hasEulerianCycle(in_degree: number[], out_degree: number[]): boolean {
     for (let i = 0; i < in_degree.length; i++) {
         if (in_degree[i] !== out_degree[i]) return false;
     }
