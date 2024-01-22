@@ -1,7 +1,7 @@
 import JohnsonAPSP from "../src/JohnsonAPSP";
 import { list10 } from "./fixtures/graph";
 
-test("FloydWarshall", function () {
+test("JohnsonAPSP", function () {
     let apsp = JohnsonAPSP(list10);
 
     expect(apsp).toEqual([
