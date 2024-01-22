@@ -73,6 +73,8 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Frog Jump Dynamic Programming](./src/FrogJumpDP.ts)
 -   [Maximum Slice Sum Kadane](./src/MaximumSliceSumKadane.ts)
 -   [Maximum Profit Kadane](./src/MaxProfitKadane.ts)
+-   [Eulerian Path Directed](./src/EulerianPathDirected.ts)
+-   [Eulerian Cycle Directed](./src/EulerianCycleDirected.ts)
 
 ## How to Use
 

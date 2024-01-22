@@ -292,3 +292,37 @@ list7[7] = [{ from: 7, to: 8, weight: -10 }];
 list7[8] = [];
 list7[9] = [];
 list7[10] = [{ from: 10, to: 2, weight: 5 }];
+
+export const list8: WeightedAdjacencyList = [];
+
+list8[0] = [];
+list8[1] = [
+    { from: 1, to: 2, weight: 1 },
+    { from: 1, to: 3, weight: 1 },
+];
+list8[2] = [
+    { from: 2, to: 2, weight: 1 },
+    { from: 2, to: 4, weight: 1 },
+    { from: 2, to: 4, weight: 2 },
+];
+list8[3] = [
+    { from: 3, to: 1, weight: 1 },
+    { from: 3, to: 2, weight: 1 },
+    { from: 3, to: 5, weight: 1 },
+];
+list8[4] = [
+    { from: 4, to: 3, weight: 1 },
+    { from: 4, to: 6, weight: 1 },
+];
+list8[5] = [{ from: 5, to: 6, weight: 1 }];
+list8[6] = [{ from: 6, to: 3, weight: 1 }];
+
+export const list9: WeightedAdjacencyList = [];
+
+list9[0] = [{ from: 0, to: 1, weight: 1 }];
+list9[1] = [{ from: 1, to: 2, weight: 1 }];
+list9[2] = [{ from: 2, to: 3, weight: 1 }];
+list9[3] = [{ from: 3, to: 4, weight: 1 }];
+list9[4] = [{ from: 4, to: 5, weight: 1 }];
+list9[5] = [{ from: 5, to: 6, weight: 1 }];
+list9[6] = [{ from: 6, to: 0, weight: 1 }];

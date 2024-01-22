@@ -1,4 +1,4 @@
-import frog_jump from "../src/FrogJump";
+import frog_jump from "../src/FrogJumpDP";
 
 test("frog_jump", function () {
     expect(frog_jump([1, 3, 4], 6, 100000)).toEqual(9);
