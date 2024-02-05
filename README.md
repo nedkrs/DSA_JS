@@ -69,14 +69,12 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [01KnapsackRecursivelyDP](./src/01KnapsackRecursivelyDP.ts)
 -   [01KnapsackRecursivelyExponential](./src/01KnapsackRecursivelyExponential.ts)
 -   [Knapsack Fractional](./src/01KnapsackFractional.ts)
--   [Coin Change Dynamic Programming](./src/CoinChangeDP.ts)
 -   [Frog Jump Dynamic Programming](./src/FrogJumpDP.ts)
 -   [Maximum Slice Sum Kadane](./src/MaximumSliceSumKadane.ts)
 -   [Maximum Profit Kadane](./src/MaxProfitKadane.ts)
 -   [Eulerian Path Directed](./src/EulerianPathDirected.ts)
 -   [Eulerian Cycle Directed](./src/EulerianCycleDirected.ts)
 -   [Johnson's All Pairs Shortest Path](./src/JohnsonAPSP.ts)
-
 -   [70_ClimbingStairsBottomUp](./src/09_dynamic_programming/1D/leetcode/easy/70_ClimbingStairsBottomUp.ts)
 -   [70_ClimbingStairsTopDown](./src/09_dynamic_programming/1D/leetcode/easy/70_ClimbingStairsTopDown.ts)
 -   [509_FibonacciNumberBottomUp](./src/09_dynamic_programming/1D/leetcode/easy/509_FibonacciNumberBottomUp.ts)
@@ -124,6 +122,8 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [90_Subsets2](./src/14_combinatorics/subsets/leetcode/medium/90_Subsets2.ts)
 -   [GenerateSubsetsIteratively](./src/14_combinatorics/subsets/GenerateSubsetsIteratively.ts)
 -   [GenerateSubsetsRecursively](./src/14_combinatorics/subsets/GenerateSubsetsRecursively.ts)
+-   [191_NumberOf1Bits](./src/12_bit_manipulation/leetcode/easy/191_NumberOf1Bits.ts)
+-   [338_CountingBits](./src/12_bit_manipulation/leetcode/easy/338_CountingBits.ts)
 
 ## How to Use
 
