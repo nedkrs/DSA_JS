@@ -1,4 +1,4 @@
-export default function KnapsackRecursivelyDP(
+export default function KnapsackBottomUpDP(
     v: number[],
     w: number[],
     W: number,

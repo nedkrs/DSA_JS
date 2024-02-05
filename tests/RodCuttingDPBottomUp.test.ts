@@ -1,4 +1,4 @@
-import CutRod from "../src/RodCuttingDPBottomUp";
+import CutRod from "../src/09_dynamic_programming/1D/RodCuttingDPBottomUp";
 
 test("RodCuttingDPBottomUp", function () {
     const p = [0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30];
