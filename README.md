@@ -61,9 +61,9 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Fenwick Tree](./src/FenwickTree.ts)
 -   [Consistent Hashing](./src/ConsistentHashing.ts)
 -   [Ring Buffer](./src/RingBuffer.ts)
--   [Rod Cutting Exponential](./src/RodCuttingExponential.ts)
--   [Rod Cutting Dynamic Programming Botton Up](./src/RodCuttingDPBottomUp.ts)
--   [Rod Cutting Dynamic Programming Top Down](./src/RodCuttingDPTopDown.ts)
+-   [Rod Cutting Exponential](./src/09_dynamic_programming/1D/RodCuttingExponential.ts)
+-   [Rod Cutting Dynamic Programming Bottom Up](./src/09_dynamic_programming/1D/RodCuttingBottomUp.ts)
+-   [Rod Cutting Dynamic Programming Top Down](./src/09_dynamic_programming/1D/RodCuttingTopDown.ts)
 -   [Longest Common Subsequence Dynamic Programming](./src/LongestCommonSubsequenceDP.ts)
 -   [01KnapsackBottomUpDP](./src/01KnapsackBottomUpDP.ts)
 -   [01KnapsackRecursivelyDP](./src/01KnapsackRecursivelyDP.ts)
@@ -122,8 +122,10 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [90_Subsets2](./src/14_combinatorics/subsets/leetcode/medium/90_Subsets2.ts)
 -   [GenerateSubsetsIteratively](./src/14_combinatorics/subsets/GenerateSubsetsIteratively.ts)
 -   [GenerateSubsetsRecursively](./src/14_combinatorics/subsets/GenerateSubsetsRecursively.ts)
+-   [136_SingleNumber](./src/12_bit_manipulation/leetcode/easy/136_SingleNumber.ts)
 -   [191_NumberOf1Bits](./src/12_bit_manipulation/leetcode/easy/191_NumberOf1Bits.ts)
 -   [338_CountingBits](./src/12_bit_manipulation/leetcode/easy/338_CountingBits.ts)
+-   [2_AddTwoNumbers](./src/02_linked_lists/leetcode/medium/2_AddTwoNumbers.ts)
 
 ## How to Use
 
