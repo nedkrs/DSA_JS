@@ -117,7 +117,6 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [47_Permutations2](./src/14_combinatorics/permutations/leetcode/medium/47_Permutations2.ts)
 -   [GeneratePermutations](./src/14_combinatorics/permutations/GeneratePermutations.ts)
 -   [GeneratePermutations2](./src/14_combinatorics/permutations/GeneratePermutations2.ts)
--   [GeneratePermutations3](./src/14_combinatorics/permutations/GeneratePermutations3.ts)
 -   [78_Subsets](./src/14_combinatorics/subsets/leetcode/medium/78_Subsets.ts)
 -   [90_Subsets2](./src/14_combinatorics/subsets/leetcode/medium/90_Subsets2.ts)
 -   [GenerateSubsetsIteratively](./src/14_combinatorics/subsets/GenerateSubsetsIteratively.ts)
@@ -126,6 +125,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [191_NumberOf1Bits](./src/12_bit_manipulation/leetcode/easy/191_NumberOf1Bits.ts)
 -   [338_CountingBits](./src/12_bit_manipulation/leetcode/easy/338_CountingBits.ts)
 -   [2_AddTwoNumbers](./src/02_linked_lists/leetcode/medium/2_AddTwoNumbers.ts)
+-   [200_NumberOfIslands](./src/10_graphs/leetcode/medium/200_NumberOfIslands.ts)
 
 ## How to Use
 
