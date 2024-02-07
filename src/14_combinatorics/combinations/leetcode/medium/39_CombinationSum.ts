@@ -32,10 +32,7 @@
 
 // Medium: https://leetcode.com/problems/combination-sum/description/
 
-export default function getCombinationSum(
-    candidates: number[],
-    target: number,
-) {
+export default function CombinationSum(candidates: number[], target: number) {
     candidates.sort((a, b) => a - b);
     let results: number[][] = [];
     generate(0, candidates, target, [], results);

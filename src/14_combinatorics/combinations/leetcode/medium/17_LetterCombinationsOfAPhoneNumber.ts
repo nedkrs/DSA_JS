@@ -31,7 +31,7 @@
 
 // Medium: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
 
-export default function getLetterCombinationsOfAPhoneNumber(digits: string) {
+export default function LetterCombinationsOfAPhoneNumber(digits: string) {
     if (digits.length === 0) return [];
     let numToLetters: {
         [key: string]: string[];

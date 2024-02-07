@@ -23,4 +23,3 @@ function generate(
 
     generate(arr, size, i + 1, currCombination, results);
 }
-console.log(getCombinations([1, 2, 3], 2));

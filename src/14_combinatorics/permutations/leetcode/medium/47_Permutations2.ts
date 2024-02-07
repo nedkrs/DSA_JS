@@ -19,7 +19,7 @@
 
 //  Medium: https://leetcode.com/problems/permutations-ii/description/
 
-export default function getPermutations(nums: number[]) {
+export default function Permutations(nums: number[]) {
     let result: number[][] = [];
     generate(
         nums.sort((a, b) => a - b),

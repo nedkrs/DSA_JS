@@ -23,4 +23,3 @@ function generate(
         currCombination.pop();
     }
 }
-console.log(GenerateCombinations([1, 2, 3], 2));

@@ -1,4 +1,4 @@
-export default function CutRod(p: number[], n: number): number {
+export default function RodCuttingExponential(p: number[], n: number): number {
     if (n === 0) {
         return 0;
     }
@@ -6,7 +6,7 @@ export default function CutRod(p: number[], n: number): number {
     let q = -Infinity;
 
     for (let i = 1; i <= n; i++) {
-        q = Math.max(q, p[i] + CutRod(p, n - i));
+        q = Math.max(q, p[i] + RodCuttingExponential(p, n - i));
     }
 
     return q;

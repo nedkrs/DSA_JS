@@ -21,7 +21,7 @@
 
 // Medium: https://leetcode.com/problems/permutations/description/
 
-export default function getPermutations(nums: number[]) {
+export default function Permutations(nums: number[]) {
     let result: number[][] = [];
     generate(nums, [], nums.length, result);
     return result;

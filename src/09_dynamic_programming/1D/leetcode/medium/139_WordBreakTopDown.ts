@@ -37,7 +37,7 @@
 export default function WordBreakTopDown(s: string, wordDict: string[]) {
     let dp = new Array(s.length + 1).fill(0);
     dp[0] = true;
-    return wordBreak(s, wordDict, dp, s.length - 1);
+    return wordBreak(s, wordDict, dp, s.length);
 }
 
 function wordBreak(

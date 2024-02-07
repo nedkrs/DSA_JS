@@ -1,4 +1,4 @@
-export default function generateSubsetsRecursively(arr: number[]): number[][] {
+export default function GenerateSubsetsRecursively(arr: number[]): number[][] {
     let subsets: number[][] = [];
     generate(0, subsets, [], arr);
     return subsets;
@@ -21,5 +21,3 @@ function generate(
 
     generate(i + 1, subsets, currSubset, arr);
 }
-
-console.log(generateSubsetsRecursively([1, 2, 3]));

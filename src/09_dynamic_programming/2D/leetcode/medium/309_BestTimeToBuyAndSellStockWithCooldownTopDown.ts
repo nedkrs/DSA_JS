@@ -23,7 +23,7 @@
 
 // Medium: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/submissions/1167090763/
 
-export default function BestTimeToBuyAndSellStockWithCooldown(
+export default function BestTimeToBuyAndSellStockWithCooldownTopDown(
     prices: number[],
 ) {
     if (prices.length <= 1) return 0;

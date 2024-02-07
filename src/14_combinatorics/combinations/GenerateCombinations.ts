@@ -18,5 +18,3 @@ export default function GenerateCombinations(array: number[], size: number) {
 
     return results;
 }
-
-console.log(GenerateCombinations([1, 2, 3], 2));

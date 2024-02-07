@@ -12,5 +12,3 @@ export default function GenerateSubsetsIteratively(arr: number[]): number[][] {
 
     return subsets;
 }
-
-console.log(GenerateSubsetsIteratively([1, 2, 3]));

@@ -1,4 +1,4 @@
-export default function getPermutations(array: number[], size: number) {
+export default function Permutations(array: number[], size: number) {
     let result: number[][] = [];
 
     function permute(arr: number[], currPermutation: number[] = []) {
@@ -18,5 +18,3 @@ export default function getPermutations(array: number[], size: number) {
 
     return result;
 }
-
-console.log(getPermutations([1, 2, 3], 3));

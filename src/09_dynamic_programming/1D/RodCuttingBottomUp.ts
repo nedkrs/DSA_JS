@@ -1,4 +1,4 @@
-export default function CutRod(p: number[], n: number): number {
+export default function RodCuttingBottomUp(p: number[], n: number): number {
     let r = [0];
 
     for (let i = 1; i <= n; i++) {

@@ -20,7 +20,7 @@
 
 // Medium: https://leetcode.com/problems/combinations/description/
 
-export default function getCombinations(n: number, k: number) {
+export default function Combinations(n: number, k: number) {
     let results: number[][] = [];
     generate(n, k, 1, [], results);
     return results;

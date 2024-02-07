@@ -28,7 +28,10 @@
 
 // Medium: https://leetcode.com/problems/longest-common-subsequence/description/
 
-export default function UniquePathsBottomUp(text1: string, text2: string) {
+export default function LongestCommonSubsequenceBottomUp(
+    text1: string,
+    text2: string,
+) {
     let dp = new Array(text1.length + 1)
         .fill(0)
         .map((_) => new Array(text2.length + 1).fill(0));

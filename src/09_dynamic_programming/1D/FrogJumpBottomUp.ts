@@ -1,4 +1,8 @@
-export default function FrogJump(S: number[], k: number, q: number): number {
+export default function FrogJumpBottomUp(
+    S: number[],
+    k: number,
+    q: number,
+): number {
     let jumps = new Array(k + 1).fill(0);
     jumps[0] = 1;
 

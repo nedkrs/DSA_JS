@@ -1,4 +1,4 @@
-export default function CutRod(p: number[], n: number): number {
+export default function RodCuttingTopDown(p: number[], n: number): number {
     let r = new Array(p.length).fill(-Infinity);
     r[0] = 0;
 
