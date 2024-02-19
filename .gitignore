@@ -10,3 +10,6 @@ dist/
 
 # Personal todo list
 todo/
+
+# Scripts
+generate-readme.js

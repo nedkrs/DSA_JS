@@ -1,5 +1,6 @@
-import AddTwoNumbers from "../../../../src/02_linked_lists/leetcode/medium/2_AddTwoNumbers";
-import { ListNode } from "../../../../src/02_linked_lists/leetcode/medium/2_AddTwoNumbers";
+import AddTwoNumbers, {
+    ListNode,
+} from "../../../../src/02_linked_lists/leetcode/medium/2_AddTwoNumbers";
 
 function createLinkedList(arr: number[]) {
     let head = new ListNode(arr[0]);
