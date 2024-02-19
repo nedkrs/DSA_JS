@@ -1,6 +1,6 @@
-import ConvertBSTtoGreaterTree, {
+import ConvertBSTToGreaterTree, {
     Node,
-} from "../../../../src/07_trees/leetcode/medium/538_ConvertBSTtoGreaterTree";
+} from "../../../../src/07_trees/leetcode/medium/538_ConvertBSTToGreaterTree";
 
 function buildTree(levels: (number | null)[]): Node<number> | null {
     if (levels.length === 0 || levels[0] === null) return null;
@@ -46,14 +46,14 @@ function bstToArray(root: Node<number> | null): number[] {
     return result;
 }
 
-describe("ConvertBSTtoGreaterTree", () => {
+describe("ConvertBSTToGreaterTree", () => {
     test("converts an empty tree", () => {
-        expect(ConvertBSTtoGreaterTree(null)).toBeNull();
+        expect(ConvertBSTToGreaterTree(null)).toBeNull();
     });
 
     test("converts a single-node tree", () => {
         const root = buildTree([1]);
-        const converted = ConvertBSTtoGreaterTree(root);
+        const converted = ConvertBSTToGreaterTree(root);
         expect(bstToArray(converted)).toEqual([1]);
     });
 
@@ -75,7 +75,7 @@ describe("ConvertBSTtoGreaterTree", () => {
             null,
             8,
         ]);
-        const converted = ConvertBSTtoGreaterTree(root);
+        const converted = ConvertBSTToGreaterTree(root);
         expect(bstToArray(converted)).toEqual([
             36, 36, 35, 33, 30, 26, 21, 15, 8,
         ]);
@@ -83,13 +83,13 @@ describe("ConvertBSTtoGreaterTree", () => {
 
     test("converts a right-skewed tree", () => {
         const root = buildTree([1, null, 2, null, 3, null, 4]);
-        const converted = ConvertBSTtoGreaterTree(root);
+        const converted = ConvertBSTToGreaterTree(root);
         expect(bstToArray(converted)).toEqual([10, 9, 7, 4]);
     });
 
     test("converts a left-skewed tree", () => {
         const root = buildTree([4, 3, null, 2, null, 1]);
-        const converted = ConvertBSTtoGreaterTree(root);
+        const converted = ConvertBSTToGreaterTree(root);
         expect(bstToArray(converted)).toEqual([10, 9, 7, 4]);
     });
 });

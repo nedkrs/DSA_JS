@@ -1,6 +1,6 @@
-import Searcha2DMatrixII from "../../../../src/05_search/leetcode/medium/240_Searcha2DMatrixII";
+import SearchA2DMatrixII from "../../../../src/05_search/leetcode/medium/240_SearchA2DMatrixII";
 
-describe("Searcha2DMatrixII", () => {
+describe("SearchA2DMatrixII", () => {
     test("finds target in matrix", () => {
         const matrix = [
             [1, 4, 7, 11, 15],
@@ -10,7 +10,7 @@ describe("Searcha2DMatrixII", () => {
             [18, 21, 23, 26, 30],
         ];
         const target = 5;
-        expect(Searcha2DMatrixII(matrix, target)).toBe(true);
+        expect(SearchA2DMatrixII(matrix, target)).toBe(true);
     });
 
     test("does not find target not in matrix", () => {
@@ -22,18 +22,18 @@ describe("Searcha2DMatrixII", () => {
             [18, 21, 23, 26, 30],
         ];
         const target = 20;
-        expect(Searcha2DMatrixII(matrix, target)).toBe(false);
+        expect(SearchA2DMatrixII(matrix, target)).toBe(false);
     });
 
     test("works with one element matrix", () => {
         const matrix = [[5]];
         const target = 5;
-        expect(Searcha2DMatrixII(matrix, target)).toBe(true);
+        expect(SearchA2DMatrixII(matrix, target)).toBe(true);
     });
 
     test("returns false for one element matrix when element is not target", () => {
         const matrix = [[4]];
         const target = 5;
-        expect(Searcha2DMatrixII(matrix, target)).toBe(false);
+        expect(SearchA2DMatrixII(matrix, target)).toBe(false);
     });
 });

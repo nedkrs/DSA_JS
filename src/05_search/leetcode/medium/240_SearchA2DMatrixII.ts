@@ -23,7 +23,7 @@
 
 // Medium: https://leetcode.com/problems/search-a-2d-matrix-ii/description/
 
-export default function Searcha2DMatrixII(matrix: number[][], target: number) {
+export default function SearchA2DMatrixII(matrix: number[][], target: number) {
     let row = 0;
     let col = matrix[0].length - 1;
 
