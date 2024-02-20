@@ -6,6 +6,25 @@ This repository is a collection of classic data structures and algorithms implem
 
 Below is the list of currently implemented algorithms and data structures with links to the source code:
 
+## Table of Contents
+
+-   [Arrays](#arrays)
+-   [Linked Lists](#linked-lists)
+-   [Stack](#stack)
+-   [Queue](#queue)
+-   [Search](#search)
+-   [Sorting](#sorting)
+-   [Trees](#trees)
+-   [Heaps](#heaps)
+-   [Dynamic Programming](#dynamic-programming)
+-   [Graphs](#graphs)
+-   [Strings](#strings)
+-   [Bit Manipulation](#bit-manipulation)
+-   [Maths](#maths)
+-   [Combinatorics](#combinatorics)
+-   [Order Statistics](#order-statistics)
+-   [Other](#other)
+
 ### Arrays
 
 -   [Max Profit Kadane](./src/01_arrays/MaxProfitKadane.ts)
