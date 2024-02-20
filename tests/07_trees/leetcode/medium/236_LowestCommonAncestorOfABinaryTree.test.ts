@@ -1,8 +1,8 @@
-import LowestCommonAncestorOfaBinaryTree, {
+import LowestCommonAncestorOfABinaryTree, {
     TreeNode,
-} from "../../../../src/07_trees/leetcode/medium/236_LowestCommonAncestorOfaBinaryTree";
+} from "../../../../src/07_trees/leetcode/medium/236_LowestCommonAncestorOfABinaryTree";
 
-describe("LowestCommonAncestorOfaBinaryTree", () => {
+describe("LowestCommonAncestorOfABinaryTree", () => {
     test("finds LCA of two nodes in a binary tree", () => {
         // Build the tree:
         //      3
@@ -25,7 +25,7 @@ describe("LowestCommonAncestorOfaBinaryTree", () => {
         const p = root.left;
         const q = root.right;
 
-        const lcaNode = LowestCommonAncestorOfaBinaryTree(root, p, q);
+        const lcaNode = LowestCommonAncestorOfABinaryTree(root, p, q);
 
         expect(lcaNode).not.toBe(false);
         if (lcaNode !== false && lcaNode !== true) {
@@ -40,7 +40,7 @@ describe("LowestCommonAncestorOfaBinaryTree", () => {
         const p = root;
         const q = root.left;
 
-        const lcaNode = LowestCommonAncestorOfaBinaryTree(root, p, q);
+        const lcaNode = LowestCommonAncestorOfABinaryTree(root, p, q);
 
         expect(lcaNode).not.toBe(false);
         if (lcaNode !== false && lcaNode !== true) {
@@ -55,7 +55,7 @@ describe("LowestCommonAncestorOfaBinaryTree", () => {
         const p = new TreeNode(3);
         const q = new TreeNode(4);
 
-        const lcaNode = LowestCommonAncestorOfaBinaryTree(root, p, q);
+        const lcaNode = LowestCommonAncestorOfABinaryTree(root, p, q);
 
         expect(lcaNode).toBeFalsy();
     });

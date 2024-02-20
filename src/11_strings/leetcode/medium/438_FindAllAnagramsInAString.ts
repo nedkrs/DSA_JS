@@ -25,7 +25,7 @@
 
 // Medium: https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
 
-export default function FindAllAnagramsInaString(s: string, p: string) {
+export default function FindAllAnagramsInAString(s: string, p: string) {
     let hashP: { [key: string]: number } = {};
     for (let char of p) {
         hashP[char] = (hashP[char] || 0) + 1;

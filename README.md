@@ -202,6 +202,23 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [136. Single Number](./src/12_bit_manipulation/leetcode/easy/136_SingleNumber.ts)
 -   [191. Number Of 1 Bits](./src/12_bit_manipulation/leetcode/easy/191_NumberOf1Bits.ts)
 -   [338. Counting Bits](./src/12_bit_manipulation/leetcode/easy/338_CountingBits.ts)
+-   [Check If Even Or Odd](./src/12_bit_manipulation/CheckIfEvenOrOdd.ts)
+-   [Toggle Nth Bit](./src/12_bit_manipulation/ToggleNthBit.ts)
+-   [Clear Nth Bit](./src/12_bit_manipulation/ClearNthBit.ts)
+-   [Set Nth Bit](./src/12_bit_manipulation/SetNthBit.ts)
+-   [Check Nth Bit](./src/12_bit_manipulation/CheckNthBit.ts)
+-   [Compute Log Base 2](./src/12_bit_manipulation/ComputeLogBase2.ts)
+-   [Create A Mask Of The Least Significant N Bits](./src/12_bit_manipulation/CreateAMaskOfTheLeastSignificantNBits.ts)
+-   [Find The Rightmost 1 Bit](./src/12_bit_manipulation/FindTheRightmost1Bit.ts)
+-   [Isolate The Rightmost 0 Bit](./src/12_bit_manipulation/IsolateTheRightmost0Bit.ts)
+-   [Reverse Bits](./src/12_bit_manipulation/ReverseBits.ts)
+-   [Round Up To The Next Power Of Two](./src/12_bit_manipulation/RoundUpToTheNextPowerOfTwo.ts)
+-   [Swap Numbers](./src/12_bit_manipulation/SwapNumbers.ts)
+-   [Turn Off The Rightmost 1 Bit](./src/12_bit_manipulation/TurnOffTheRightmost1Bit.ts)
+-   [Turn On The Rightmost 0 Bit](./src/12_bit_manipulation/TurnOnTheRightmost0Bit.ts)
+-   [Check If A Number Is A Power Of Two](./src/12_bit_manipulation/CheckIfANumberIsAPowerOfTwo.ts)
+-   [Count Set Bits Fast](./src/12_bit_manipulation/CountSetBitsFast.ts)
+-   [Count Set Bits Slow](./src/12_bit_manipulation/CountSetBitsSlow.ts)
 
 ### Maths
 
