@@ -238,6 +238,8 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Check If A Number Is A Power Of Two](./src/12_bit_manipulation/CheckIfANumberIsAPowerOfTwo.ts)
 -   [Count Set Bits Fast](./src/12_bit_manipulation/CountSetBitsFast.ts)
 -   [Count Set Bits Slow](./src/12_bit_manipulation/CountSetBitsSlow.ts)
+-   [Missing Number](./src/12_bit_manipulation/MissingNumber.ts)
+-   [Non Repeating Numbers](./src/12_bit_manipulation/NonRepeatingNumbers.ts)
 
 ### Maths
 
