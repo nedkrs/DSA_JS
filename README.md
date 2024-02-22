@@ -46,6 +46,8 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [560. Subarray Sum Equals K](./src/01_arrays/leetcode/medium/560_SubarraySumEqualsK.ts)
 -   [581. Shortest Unsorted Continuous Subarray](./src/01_arrays/leetcode/medium/581_ShortestUnsortedContinuousSubarray.ts)
 -   [665. Non Decreasing Array](./src/01_arrays/leetcode/medium/665_NonDecreasingArray.ts)
+-   [287. Find The Duplicate Number](./src/01_arrays/leetcode/medium/287_FindTheDuplicateNumber.ts)
+-   [56. Merge Intervals](./src/01_arrays/leetcode/medium/56_MergeIntervals.ts)
 
 ### Linked Lists
 
@@ -64,6 +66,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Stack](./src/03_stack/Stack.ts)
 -   [20. Valid Parentheses](./src/03_stack/leetcode/easy/20_ValidParentheses.ts)
 -   [155. Min Stack](./src/03_stack/leetcode/medium/155_MinStack.ts)
+-   [394. Decode String](./src/03_stack/leetcode/medium/394_DecodeString.ts)
 
 ### Queue
 
