@@ -96,6 +96,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [215. Kth Largest Element In An Array](./src/06_sorting/leetcode/medium/215_KthLargestElementInAnArray.ts)
 -   [75. Sort Colors](./src/06_sorting/leetcode/medium/75_SortColors.ts)
 -   [148. Sort List](./src/06_sorting/leetcode/medium/148_SortList.ts)
+-   [406. Queue Reconstruction By Height](./src/06_sorting/leetcode/medium/406_QueueReconstructionByHeight.ts)
 
 ### Trees
 
