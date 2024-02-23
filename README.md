@@ -95,6 +95,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Select Sort](./src/06_sorting/SelectSort.ts)
 -   [215. Kth Largest Element In An Array](./src/06_sorting/leetcode/medium/215_KthLargestElementInAnArray.ts)
 -   [75. Sort Colors](./src/06_sorting/leetcode/medium/75_SortColors.ts)
+-   [148. Sort List](./src/06_sorting/leetcode/medium/148_SortList.ts)
 
 ### Trees
 
@@ -129,6 +130,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [96. Unique Binary Search Trees](./src/07_trees/leetcode/medium/96_UniqueBinarySearchTrees.ts)
 -   [98. Validate Binary Search Tree](./src/07_trees/leetcode/medium/98_ValidateBinarySearchTree.ts)
 -   [Trie](./src/07_trees/trie/Trie.ts)
+-   [208. Implement Trie PrefixTree](./src/07_trees/leetcode/medium/208_ImplementTriePrefixTree.ts)
 
 ### Heaps
 
