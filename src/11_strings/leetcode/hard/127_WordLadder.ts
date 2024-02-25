@@ -27,7 +27,7 @@
 // beginWord != endWord
 // All the words in wordList are unique.
 
-// Medium: https://leetcode.com/problems/word-ladder/description/
+// Hard: https://leetcode.com/problems/word-ladder/description/
 
 export default function WordLadder(
     beginWord: string,
