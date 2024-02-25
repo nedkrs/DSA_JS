@@ -48,6 +48,9 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [665. Non Decreasing Array](./src/01_arrays/leetcode/medium/665_NonDecreasingArray.ts)
 -   [287. Find The Duplicate Number](./src/01_arrays/leetcode/medium/287_FindTheDuplicateNumber.ts)
 -   [56. Merge Intervals](./src/01_arrays/leetcode/medium/56_MergeIntervals.ts)
+-   [11. Container With Most Water](./src/01_arrays/leetcode/medium/11_ContainerWithMostWater.ts)
+-   [15. 3 Sum](./src/01_arrays/leetcode/medium/15_3Sum.ts)
+-   [31. Next Permutation](./src/01_arrays/leetcode/medium/31_NextPermutation.ts)
 
 ### Linked Lists
 
@@ -214,6 +217,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Tarjan Strong Connected Components](./src/10_graphs/strongly_connected_components/TarjanStrongConnectedComponents.ts)
 -   [Kahn Topological Sort](./src/10_graphs/topological_sort/KahnTopologicalSort.ts)
 -   [Topological Sort](./src/10_graphs/topological_sort/TopologicalSort.ts)
+-   [207. Course Schedule](./src/10_graphs/topological_sort/leetcode/medium/207_CourseSchedule.ts)
 
 ### Strings
 
@@ -221,6 +225,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [771. Jewels And Stones](./src/11_strings/leetcode/easy/771_JewelsAndStones.ts)
 -   [22. Generate Parentheses](./src/11_strings/leetcode/medium/22_GenerateParentheses.ts)
 -   [438. Find All Anagrams Ina String](./src/11_strings/leetcode/medium/438_FindAllAnagramsInaString.ts)
+-   [127. Word Ladder](./src/11_strings/leetcode/hard/127_WordLadder.ts)
 
 ### Bit Manipulation
 
