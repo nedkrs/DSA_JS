@@ -1,4 +1,4 @@
-import TargetSumTopDown from "../../../../src/09_dynamic_programming/leetcode/medium/494_TargetSumTopDown"; // Adjust the import path as necessary
+import TargetSumTopDown from "../../../../src/09_dynamic_programming/leetcode/medium/494_TargetSumTopDown";
 
 test("basic case with a small array", () => {
     expect(TargetSumTopDown([1, 1, 1, 1, 1], 3)).toBe(5);

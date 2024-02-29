@@ -1,4 +1,4 @@
-import InterleavingStringsBottomUp from "../../../../src/09_dynamic_programming/leetcode/medium/97_InterleavingStringsBottomUp"; // Adjust the import path as necessary
+import InterleavingStringsBottomUp from "../../../../src/09_dynamic_programming/leetcode/medium/97_InterleavingStringsBottomUp";
 
 test("basic interleaving", () => {
     expect(InterleavingStringsBottomUp("abc", "def", "adbcef")).toBe(true);

@@ -1,4 +1,4 @@
-import UniquePathsTopDown from "../../../../src/09_dynamic_programming/leetcode/medium/62_UniquePathsTopDown"; // Adjust the import path as necessary
+import UniquePathsTopDown from "../../../../src/09_dynamic_programming/leetcode/medium/62_UniquePathsTopDown";
 
 test("basic grid 2x2", () => {
     expect(UniquePathsTopDown(2, 2)).toBe(2);

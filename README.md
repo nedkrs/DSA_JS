@@ -51,6 +51,8 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [11. Container With Most Water](./src/01_arrays/leetcode/medium/11_ContainerWithMostWater.ts)
 -   [15. 3 Sum](./src/01_arrays/leetcode/medium/15_3Sum.ts)
 -   [31. Next Permutation](./src/01_arrays/leetcode/medium/31_NextPermutation.ts)
+-   [84. Largest Rectangle In Histogram](./src/01_arrays/leetcode/hard/84_LargestRectangleInHistogram.ts)
+-   [128. Longest Consecutive Sequence](./src/01_arrays/leetcode/medium/128_LongestConsecutiveSequence.ts)
 
 ### Linked Lists
 
@@ -70,6 +72,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [20. Valid Parentheses](./src/03_stack/leetcode/easy/20_ValidParentheses.ts)
 -   [155. Min Stack](./src/03_stack/leetcode/medium/155_MinStack.ts)
 -   [394. Decode String](./src/03_stack/leetcode/medium/394_DecodeString.ts)
+-   [42. Trapping Rain Water](./src/03_stack/leetcode/hard/42_TrappingRainWater.ts)
 
 ### Queue
 
@@ -84,6 +87,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [33. Search In Rotated Sorted Array](./src/05_search/leetcode/medium/33_SearchInRotatedSortedArray.ts)
 -   [347. Top K Frequent Elements](./src/05_search/leetcode/medium/347_TopKFrequentElements.ts)
 -   [34. Find First And Last Position Of Element In Sorted Array](./src/05_search/leetcode/medium/34_FindFirstAndLastPositionOfElementInSortedArray.ts)
+-   [4. Median Of Two Sorted Arrays](./src/05_search/leetcode/hard//4_MedianOfTwoSortedArrays.ts)
 
 ### Sorting
 
@@ -124,7 +128,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [105. Construct Binary Tree From Preorder And Inorder Traversal](./src/07_trees/leetcode/medium/105_ConstructBinaryTreeFromPreorderAndInorderTraversal.ts)
 -   [114. Flatten Binary Tree To Linked List](./src/07_trees/leetcode/medium/114_FlattenBinaryTreeToLinkedList.ts)
 -   [235. Lowest Common Ancestor Of A Binary Search Tree](./src/07_trees/leetcode/medium/235_LowestCommonAncestorOfABinarySearchTree.ts)
--   [236. Lowest Common Ancestor Ofa Binary Tree](./src/07_trees/leetcode/medium/236_LowestCommonAncestorOfaBinaryTree.ts)
+-   [236. Lowest Common Ancestor Of A Binary Tree](./src/07_trees/leetcode/medium/236_LowestCommonAncestorOfABinaryTree.ts)
 -   [337. House Robber III](./src/07_trees/leetcode/medium/337_HouseRobberIII.ts)
 -   [437. Path Sum III](./src/07_trees/leetcode/medium/437_PathSumIII.ts)
 -   [538. Convert BST To Greater Tree](./src/07_trees/leetcode/medium/538_ConvertBSTtoGreaterTree.ts)
@@ -135,12 +139,15 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [98. Validate Binary Search Tree](./src/07_trees/leetcode/medium/98_ValidateBinarySearchTree.ts)
 -   [Trie](./src/07_trees/trie/Trie.ts)
 -   [208. Implement Trie PrefixTree](./src/07_trees/leetcode/medium/208_ImplementTriePrefixTree.ts)
+-   [124. Binary Tree Maximum Path Sum](./src/07_trees/leetcode/hard//124_BinaryTreeMaximumPathSum.ts)
 
 ### Heaps
 
 -   [Linear Min Heap Creation](./src/08_heaps/min_heap/LinearMinHeapCreation.ts)
 -   [Min Heap](./src/08_heaps/min_heap/MinHeap.ts)
+-   [Heap](./src/08_heaps/heap/heap.ts)
 -   [Priority Indexed Min Queue](./src/08_heaps/priority_indexed_min_heap/PriorityIndexedMinQueue.ts)
+-   [295. Find Median From Data Stream](./src/08_heaps/leetcode//hard/295_FindMedianFromDataStream.ts)
 
 ### Dynamic Programming
 
@@ -188,6 +195,10 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [91. Decode Ways Top Down](./src/09_dynamic_programming/leetcode/medium/91_DecodeWaysTopDown.ts)
 -   [97. Interleaving Strings Bottom Up](./src/09_dynamic_programming/leetcode/medium/97_InterleavingStringsBottomUp.ts)
 -   [97. Interleaving Strings Top Down](./src/09_dynamic_programming/leetcode/medium/97_InterleavingStringsTopDown.ts)
+-   [72. Edit Distance](./src/09_dynamic_programming/leetcode/medium/72_EditDistance.ts)
+-   [10. Regular Expression Matching](./src/09_dynamic_programming/leetcode/hard/10_RegularExpressionMatching.ts)
+-   [115. Distinct Subsuquences](./src/09_dynamic_programming/leetcode/hard/115_DistinctSubsuquences.ts)
+-   [312. Burst Balloons](./src/09_dynamic_programming/leetcode/hard/312_BurstBalloons.ts)
 
 ### Graphs
 
