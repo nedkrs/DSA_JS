@@ -53,6 +53,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [31. Next Permutation](./src/01_arrays/leetcode/medium/31_NextPermutation.ts)
 -   [84. Largest Rectangle In Histogram](./src/01_arrays/leetcode/hard/84_LargestRectangleInHistogram.ts)
 -   [128. Longest Consecutive Sequence](./src/01_arrays/leetcode/medium/128_LongestConsecutiveSequence.ts)
+-   [41. First Missing Positive](./src/01_arrays/leetcode/hard/41_FirstMissingPositive.ts)
 
 ### Linked Lists
 
@@ -87,7 +88,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [33. Search In Rotated Sorted Array](./src/05_search/leetcode/medium/33_SearchInRotatedSortedArray.ts)
 -   [347. Top K Frequent Elements](./src/05_search/leetcode/medium/347_TopKFrequentElements.ts)
 -   [34. Find First And Last Position Of Element In Sorted Array](./src/05_search/leetcode/medium/34_FindFirstAndLastPositionOfElementInSortedArray.ts)
--   [4. Median Of Two Sorted Arrays](./src/05_search/leetcode/hard//4_MedianOfTwoSortedArrays.ts)
+-   [4. Median Of Two Sorted Arrays](./src/05_search/leetcode/hard/4_MedianOfTwoSortedArrays.ts)
 
 ### Sorting
 
@@ -139,7 +140,8 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [98. Validate Binary Search Tree](./src/07_trees/leetcode/medium/98_ValidateBinarySearchTree.ts)
 -   [Trie](./src/07_trees/trie/Trie.ts)
 -   [208. Implement Trie PrefixTree](./src/07_trees/leetcode/medium/208_ImplementTriePrefixTree.ts)
--   [124. Binary Tree Maximum Path Sum](./src/07_trees/leetcode/hard//124_BinaryTreeMaximumPathSum.ts)
+-   [124. Binary Tree Maximum Path Sum](./src/07_trees/leetcode/hard/124_BinaryTreeMaximumPathSum.ts)
+-   [212. Word Search II](./src/07_trees/leetcode/hard/212_WordSearchII.ts)
 
 ### Heaps
 
@@ -147,7 +149,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [Min Heap](./src/08_heaps/min_heap/MinHeap.ts)
 -   [Heap](./src/08_heaps/heap/heap.ts)
 -   [Priority Indexed Min Queue](./src/08_heaps/priority_indexed_min_heap/PriorityIndexedMinQueue.ts)
--   [295. Find Median From Data Stream](./src/08_heaps/leetcode//hard/295_FindMedianFromDataStream.ts)
+-   [295. Find Median From Data Stream](./src/08_heaps/leetcode/hard/295_FindMedianFromDataStream.ts)
 
 ### Dynamic Programming
 
@@ -199,6 +201,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [10. Regular Expression Matching](./src/09_dynamic_programming/leetcode/hard/10_RegularExpressionMatching.ts)
 -   [115. Distinct Subsuquences](./src/09_dynamic_programming/leetcode/hard/115_DistinctSubsuquences.ts)
 -   [312. Burst Balloons](./src/09_dynamic_programming/leetcode/hard/312_BurstBalloons.ts)
+-   [45. Jump Game II](./src/09_dynamic_programming/leetcode/medium/45_JumpGameII.ts)
 
 ### Graphs
 
