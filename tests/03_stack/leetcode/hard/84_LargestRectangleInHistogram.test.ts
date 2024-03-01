@@ -1,4 +1,4 @@
-import LargestRectangleInHistogram from "../../../../src/01_arrays/leetcode/hard/84_LargestRectangleInHistogram";
+import LargestRectangleInHistogram from "../../../../src/03_stack/leetcode/hard/84_LargestRectangleInHistogram";
 
 describe("LargestRectangleInHistogram", () => {
     test("should return the correct area for a single rectangle", () => {

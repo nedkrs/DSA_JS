@@ -51,7 +51,6 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [11. Container With Most Water](./src/01_arrays/leetcode/medium/11_ContainerWithMostWater.ts)
 -   [15. 3 Sum](./src/01_arrays/leetcode/medium/15_3Sum.ts)
 -   [31. Next Permutation](./src/01_arrays/leetcode/medium/31_NextPermutation.ts)
--   [84. Largest Rectangle In Histogram](./src/01_arrays/leetcode/hard/84_LargestRectangleInHistogram.ts)
 -   [128. Longest Consecutive Sequence](./src/01_arrays/leetcode/medium/128_LongestConsecutiveSequence.ts)
 -   [41. First Missing Positive](./src/01_arrays/leetcode/hard/41_FirstMissingPositive.ts)
 
@@ -74,6 +73,8 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [155. Min Stack](./src/03_stack/leetcode/medium/155_MinStack.ts)
 -   [394. Decode String](./src/03_stack/leetcode/medium/394_DecodeString.ts)
 -   [42. Trapping Rain Water](./src/03_stack/leetcode/hard/42_TrappingRainWater.ts)
+-   [82. Maximal Rectangle](./src/03_stack/leetcode/hard/82_MaximalRectangle.ts)
+-   [84. Largest Rectangle In Histogram](./src/03_stack/leetcode/hard/84_LargestRectangleInHistogram.ts)
 
 ### Queue
 
@@ -142,6 +143,7 @@ Below is the list of currently implemented algorithms and data structures with l
 -   [208. Implement Trie PrefixTree](./src/07_trees/leetcode/medium/208_ImplementTriePrefixTree.ts)
 -   [124. Binary Tree Maximum Path Sum](./src/07_trees/leetcode/hard/124_BinaryTreeMaximumPathSum.ts)
 -   [212. Word Search II](./src/07_trees/leetcode/hard/212_WordSearchII.ts)
+-   [145. Binary Tree Postorder Traversal](./src/07_trees/leetcode/easy/145_BinaryTreePostorderTraversal.ts)
 
 ### Heaps
 
