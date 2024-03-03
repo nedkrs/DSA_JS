@@ -79,6 +79,7 @@ Below is the list of currently implemented algorithms and data structures with l
 ### Queue
 
 -   [Queue](./src/04_queue/Queue.ts)
+-   [239. Sliding Window Maximum](./src/04_queue/leetcode/hard/239_SlidingWindowMaximum.ts)
 
 ### Search
 
